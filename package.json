@@ -1,0 +1,31 @@
+{
+  "name": "portfolio-web-page-server",
+  "version": "1.0.0",
+  "description": "Server for portfolio web page",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PMedina25/portfolio-web-page-server.git"
+  },
+  "author": "Pablo Medina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PMedina25/portfolio-web-page-server/issues"
+  },
+  "homepage": "https://github.com/PMedina25/portfolio-web-page-server#readme",
+  "dependencies": {
+    "apollo-server": "^2.21.0",
+    "bcrypt": "^5.0.0",
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.16",
+    "nodemon": "^2.0.7"
+  }
+}
