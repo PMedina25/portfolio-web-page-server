@@ -30,7 +30,7 @@ module.exports = {
         }
     },
     Mutation: {
-        async addProject(_, { title, description, category, technologies, startDate, endDate, url, image }, context) {
+        async addProject(_, { title, description, category, technologies, startDate, endDate, url, github, image }, context) {
             // Check that the admin is logged in
             checkAuth(context);
 
@@ -65,7 +65,7 @@ module.exports = {
 
             return project;
         },
-        async updateProject(_, {projectId, title, description, category, technologies, startDate, endDate, url, image }, context) {
+        async updateProject(_, {projectId, title, description, category, technologies, startDate, endDate, url, github, image }, context) {
             // Check that the admin is logged in
             checkAuth(context);
 

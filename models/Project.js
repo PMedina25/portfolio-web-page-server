@@ -9,6 +9,7 @@ const projectSchema = new Schema({
     startDate: String,
     endDate: String,
     url: String,
+    github: String,
     image: String
 });
 

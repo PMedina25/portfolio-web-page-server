@@ -10,6 +10,7 @@ module.exports = gql`
         startDate: String!
         endDate: String
         url: String
+        github: String
         image: String
     }
     type Organization {
